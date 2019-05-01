@@ -22,6 +22,10 @@ router.get('/ocr', (req, res, next) => {
             }
             res.send(finalArrayList);
         })
+<<<<<<< HEAD
+=======
+        res.send("In progress...");
+>>>>>>> 709526744131c80feb2c09ee745a8be5322d8e3a
 })
 router.get('/search', (req, res, next) => {
     const searcher = new FuzzySearch(allText, {
